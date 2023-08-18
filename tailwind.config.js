@@ -13,7 +13,7 @@ export default {
         "custom-light-rose": "#FD5359",
       },
       boxShadow: {
-        header: "0px 4px 10px 0px rgba(39, 40, 49, 0.03)",
+        'custom-shadow': "0px 4px 10px 0px rgba(39, 40, 49, 0.03)",
       },
     },
   },

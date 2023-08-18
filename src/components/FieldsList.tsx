@@ -9,9 +9,9 @@ const fields = [
 ];
 
 export const FieldsList: React.FC = () => (
-  <div className="flex gap-2 mb-5">
+  <ul className="flex gap-2 mb-5">
     {fields.map((field) => (
       <FieldItem key={field} title={field} />
     ))}
-  </div>
+  </ul>
 );
