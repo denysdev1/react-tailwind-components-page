@@ -6,7 +6,7 @@ type Props = {
 };
 
 export const TabCardFields: React.FC<Props> = ({ fields }) => (
-  <ul className="w-full flex flex-col gap-[30px]">
+  <ul className="w-full flex flex-col gap-[30px] mb-[30px]">
     {fields.map(({ title, expertisePercent }) => (
       <TabCardField
         key={title}
