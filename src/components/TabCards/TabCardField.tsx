@@ -12,8 +12,9 @@ export const TabCardField: React.FC<Props> = ({ title, expertisePercent }) => (
       ></div>
     </div>
     <div
-      className={cn("flex justify-between text-custom-light-rose", {
+      className={cn("flex justify-between", {
         "text-[#D6D7E1]": expertisePercent <= 0,
+        "text-custom-light-rose": expertisePercent
       })}
     >
       <span>{title}</span>
