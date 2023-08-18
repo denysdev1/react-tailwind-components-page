@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { ArrowLeftSvgIcon } from "./ArrowLeftSvgIcon";
+import { ArrowLeftSvgIcon } from "./svg/ArrowLeftSvgIcon";
 import { Button } from "./Button";
-import { SvgIcon } from "./SvgIcon";
+import { SvgIcon } from "./svg/SvgIcon";
 
 export const Header: React.FC = () => (
   <div className="flex items-center w-full h-12 bg-white shadow-header pl-[50px] pr-10 mb-20">
