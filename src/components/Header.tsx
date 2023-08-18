@@ -1,22 +1,21 @@
-import { ArrowLeftSvgIcon } from "./ArrowLeftSvg";
+import { Link } from "react-router-dom";
+import { ArrowLeftSvgIcon } from "./ArrowLeftSvgIcon";
 import { Button } from "./Button";
 import { SvgIcon } from "./SvgIcon";
 
 export const Header: React.FC = () => (
-  <div className="flex items-center w-full h-12 bg-white shadow border pl-[50px] pr-10">
-    <SvgIcon />
+  <div className="flex items-center w-full h-12 bg-white shadow-header pl-[50px] pr-10 mb-20">
+    <SvgIcon className="mr-6" />
     <div className="flex cursor-pointer items-center">
-      <ArrowLeftSvgIcon />
+      <ArrowLeftSvgIcon className="mr-3" />
       <span className="text-regular-gray text-sm font-medium">
         Back to Results
       </span>
     </div>
-    <img
-      src="images/ogilvy.png"
-      alt="company logo"
-      className="w-20 h-8 m-auto cursor-pointer"
-    />
-    <Button text="Contact Ogilvy" />
+    <Link to={"/"} className="w-20 h-[30px] m-auto cursor-pointer">
+      <img src="images/ogilvy.png" alt="company logo" />
+    </Link>
+    <Button text="Contact Ogilvy" href="contact" />
     <img
       src="images/avatar.png"
       alt="avatar icon"

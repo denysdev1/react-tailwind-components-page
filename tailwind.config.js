@@ -10,6 +10,10 @@ export default {
         "regular-gray": "#9193A9",
         "custom-rose": "#FE5459",
         "custom-rose-hover": "rgb(235, 83, 89)",
+        "custom-light-rose": "#FD5359",
+      },
+      boxShadow: {
+        header: "0px 4px 10px 0px rgba(39, 40, 49, 0.03)",
       },
     },
   },
