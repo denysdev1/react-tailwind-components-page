@@ -15,13 +15,17 @@ export const CompanyInfo: React.FC = () => (
         10 years · New York
       </span>
       <FieldsList />
-      <div className="max-w-[458px] text-regular-gray text-sm mb-[30px]">
+      <div className="max-w-[458px] text-regular-gray text-sm mb-[30px] px-2 md:px-0">
         In the beginning, there was one Ogilvy, the company founded by David
         Ogilvy in 1948. Today, there is again one Ogilvy, in 83 countries and
         132 offices. We are one doorway to a creative network, re-founded to
         make brands matter in a complex, noisy, hyper-connected world.
       </div>
-      <Button text="Contact Ogilvy" href="contact" className="mb-[68px]" />
+      <Button
+        text="Contact Ogilvy"
+        href="contact"
+        className="mb-[68px] h-10 lg:h-7"
+      />
       <TabsList />
     </div>
   </div>

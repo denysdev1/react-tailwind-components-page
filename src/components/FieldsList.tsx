@@ -9,7 +9,7 @@ const fields = [
 ];
 
 export const FieldsList: React.FC = () => (
-  <ul className="flex gap-2 mb-5">
+  <ul className="flex flex-wrap justify-center gap-2 mb-5">
     {fields.map((field) => (
       <FieldItem key={field} title={field} />
     ))}

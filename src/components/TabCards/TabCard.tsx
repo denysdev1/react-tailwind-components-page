@@ -11,7 +11,7 @@ export const TabCard: React.FC<Props> = ({
   fields,
   notification,
 }) => (
-  <li className="flex flex-col items-center p-5 bg-white w-[580px] font-medium mt-12 shadow-custom-shadow rounded-sm">
+  <li className="flex flex-col items-center p-5 bg-white md:w-[580px] font-medium mt-12 shadow-custom-shadow rounded-sm">
     <img src={iconPath} alt="shopping bags image" className="w-16 h-12 mb-5" />
     <span className="uppercase mb-5">{title}</span>
     <span className="text-sm text-regular-gray mb-10 text-center h-14 md:h-10 xl:h-9 max-w-[400px]">

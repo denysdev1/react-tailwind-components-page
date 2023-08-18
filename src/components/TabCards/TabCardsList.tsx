@@ -66,7 +66,7 @@ const tabCards: TabCardInfo[] = [
 ];
 
 export const TabCardsList = () => (
-  <ul className="flex gap-[30px] justify-center px-5 xl:px-0">
+  <ul className="flex-col flex md:flex-row gap-[30px] justify-center px-5 xl:px-0">
     {tabCards.map((tabCard) => (
       <TabCard
         key={tabCard.title}
